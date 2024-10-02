@@ -1,6 +1,7 @@
 TUGAS-TUGAS PEMROGRAMAN INTERNET
 ================================
-I GUSTI AYU MARTINI	(2305551020)
+Nama	NIM
+I GUSTI AYU MARTINI	2305551020
 
 Tugas 1 : Menampilkan Grade Dari Nilai Rata-Rata
 ================================================
