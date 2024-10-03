@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rata-Rata Nilai Mahasiswa</title>
+    <title>Rata-Rata Nilai Siswa</title>
     <style>
         * {
             margin: 0;
@@ -133,7 +133,7 @@
     $totalTidakLulus = 0;
 
     echo "<table>";
-    echo "<tr><th colspan='4'>Rata-Rata Nilai Mahasiswa</th></tr>";
+    echo "<tr><th colspan='4'>Rata-Rata Nilai Siswa</th></tr>";
     echo "<tr><th>Nama</th><th>Rata-rata</th><th>Status</th><th>Mata Pelajaran yang harus diperbaiki</th></tr>";
 
     foreach ($siswa as $data) {
@@ -167,9 +167,9 @@
     echo "</table>";
     ?>
 
-    <!-- Tabel Jumlah Mahasiswa yang Lulus/Tidak -->
+    <!-- Tabel Jumlah Siswa yang Lulus/Tidak -->
     <table class="summary-table">
-        <tr><th colspan='2'>Jumlah Mahasiswa yang Lulus/Tidak</th></tr>
+        <tr><th colspan='2'>Jumlah Siswa yang Lulus/Tidak</th></tr>
         <tr><th>Jumlah Siswa Lulus</th><td><?php echo $totalLulus; ?></td></tr>
         <tr><th>Jumlah Siswa Tidak Lulus</th><td><?php echo $totalTidakLulus; ?></td></tr>
     </table>
